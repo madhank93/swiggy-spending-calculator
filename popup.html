@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article Saver</title>
+    <style>
+      body {
+        min-width: 250px;
+        padding-bottom: 20px;
+      }
+
+      button {
+        border: none;
+        background-color: rgb(1, 100, 139);
+        color: white;
+        cursor: pointer;
+        padding: 8px 6px;
+        border-radius: 4px;
+      }
+
+      button:disabled {
+          opacity: 0.5;
+          cursor: not-allowed;
+      }
+
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      a {
+        width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow-x: hidden;
+        color: rgb(1, 100, 139);
+        text-decoration: unset;
+      }
+
+      a:hover {
+        background-color: rgb(228, 228, 228);
+      }
+
+      p#show-total {
+        border: 1px solid dotted;
+        border-color: brown;
+      }
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      /* .col1, .col2, .col3 {
+          flex-basis: 33.3%;
+      } */
+    </style>
+  </head>
+
+  <body>
+    <div class="row">
+      <button id="link" class="col1">Calculate total spending</button>
+      <span class="col2">=</span>
+      <div class="col3">₹ <span id="show-total"></span></div>
+    </div>
+<div id="instruction">
+    <h3>Instructions:</h3>
+    <ol>
+      <li>Open swiggy.com</li>
+      <li>Sign in</li>
+      <li>Now, open the extension and check you spending</li>
+    </ol>
+</div>
+
+    <script type="text/javascript" src="popup.js"></script>
+  </body>
+</html>

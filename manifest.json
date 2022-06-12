@@ -1,0 +1,21 @@
+{
+  "name": "Swiggy Spending Calculator",
+  "version": "1.0.0",
+  "description": "Extension to calculate total spending in swiggy till date",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "hamburger.png",
+    "48": "hamburger.png",
+    "128": "hamburger.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
