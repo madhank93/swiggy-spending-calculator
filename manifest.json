@@ -7,9 +7,9 @@
     "default_popup": "popup.html"
   },
   "icons": {
-    "16": "hamburger.png",
-    "48": "hamburger.png",
-    "128": "hamburger.png"
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
   },
   "permissions": ["activeTab"],
   "content_scripts": [
