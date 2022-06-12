@@ -1,1 +1,1 @@
-# swiggy-total-order-value
+# swiggy spending calculator
