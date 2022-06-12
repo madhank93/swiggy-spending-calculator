@@ -5,9 +5,7 @@ chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
       tabs[0].id,
       { message: "disable_text" },
       function (response) {
-        if (response?.message === "logged_in") {
-          document.getElementById("instruction").style.display = "none";
-        } else {
+        if (response?.message === "not_logged_in") {
           document.getElementById("link").disabled = true;
         }
       }

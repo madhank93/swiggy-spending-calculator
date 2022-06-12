@@ -11,7 +11,7 @@
     "48": "hamburger.png",
     "128": "hamburger.png"
   },
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
