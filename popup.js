@@ -31,7 +31,7 @@ document.getElementById("link").addEventListener("click", () => {
 });
 
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
-  if (request.totalMoney) {
+  if (request.totalMoney >= 0) {
     document.getElementById("show-total").innerText = request.totalMoney;
   }
 });
