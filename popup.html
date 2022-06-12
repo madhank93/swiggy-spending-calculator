@@ -6,8 +6,8 @@
     <title>Article Saver</title>
     <style>
       body {
-        min-width: 250px;
-        padding-bottom: 20px;
+        min-width: 300px;
+        padding: 0 20px 20px 20px;
       }
 
       button {
@@ -20,8 +20,8 @@
       }
 
       button:disabled {
-          opacity: 0.5;
-          cursor: not-allowed;
+        opacity: 0.5;
+        cursor: not-allowed;
       }
 
       section {
@@ -52,27 +52,32 @@
         align-items: center;
         justify-content: space-between;
       }
-
-      /* .col1, .col2, .col3 {
-          flex-basis: 33.3%;
-      } */
+      h2 {
+        display: flex;
+        align-items: center;
+      }
+      img {
+        margin-right: 10px;
+      }
     </style>
   </head>
 
   <body>
+    <h2><img width="20" height="20" src="money-bag.png" alt="icon" />Swiggy Spending Calculator</h2>
+
     <div class="row">
-      <button id="link" class="col1">Calculate total spending</button>
+      <button id="link" class="col1">Calculate money spent</button>
       <span class="col2">=</span>
-      <div class="col3">₹ <span id="show-total"></span></div>
+      <div class="col3">₹ <span id="show-total">____</span></div>
     </div>
-<div id="instruction">
-    <h3>Instructions:</h3>
-    <ol>
-      <li>Open swiggy.com</li>
-      <li>Sign in</li>
-      <li>Now, open the extension and check you spending</li>
-    </ol>
-</div>
+    <div id="instruction">
+      <h3>Instructions:</h3>
+      <ol>
+        <li>Open swiggy.com</li>
+        <li>Sign in</li>
+        <li>Now, open the extension and check you spending</li>
+      </ol>
+    </div>
 
     <script type="text/javascript" src="popup.js"></script>
   </body>

@@ -1,7 +1,7 @@
 {
   "name": "Swiggy Spending Calculator",
   "version": "1.0.0",
-  "description": "Extension to calculate total spending in swiggy till date",
+  "description": "Extension to calculate total spending on swiggy till date",
   "manifest_version": 3,
   "action": {
     "default_popup": "popup.html"
