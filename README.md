@@ -2,14 +2,14 @@
 
 - Open swiggy.com
 - Sign in your account
-- Open the extension and click `calculate money spent` button
+- Open the extension and click `Calculate Total Spending` button
 ---------
-### If you are on any other url the calculate button will be disabled. It will be enabled when you are on https://www.swiggy.com
- 
 
-1. Disabled:
-<img width="1434" alt="Screenshot 2022-06-12 at 7 10 57 PM" src="https://user-images.githubusercontent.com/30005492/173236473-32d91c0e-1d4e-4fb4-9f82-e3836cacc7ea.png">
+### Screenshot-1
+<img width="384" alt="Screenshot 2022-06-19 at 4 54 25 PM" src="https://user-images.githubusercontent.com/30005492/174597271-4f6bbce2-5457-47cf-a824-d0ea574e72e5.png">
 
+### Screenshot-2
+<img width="384" alt="Screenshot 2022-06-19 at 4 54 29 PM" src="https://user-images.githubusercontent.com/30005492/174597282-796ffe26-51a1-40eb-bc36-4b4ba5c11095.png">
 
-2. Enabled: click on calculate and it will show your total spending on swiggy till date:
-<img width="1434" alt="Screenshot 2022-06-12 at 7 10 06 PM" src="https://user-images.githubusercontent.com/30005492/173236469-d15b27ef-e331-4582-ae3c-a69781cca035.png">
+### Screenshot-3
+<img width="384" alt="Screenshot 2022-06-19 at 4 55 06 PM" src="https://user-images.githubusercontent.com/30005492/174597290-0b167db0-d343-4ba2-9900-1f4cc20ce5b9.png">
